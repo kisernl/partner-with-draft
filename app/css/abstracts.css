@@ -3,9 +3,9 @@
 /* variables */
 :root {
   /* ### colors */
-  --dark-blue: hsl(233, 26%, 24%);
-  --lime-green: hsl(136, 65%, 51%);
-  --bright-cyan: hsl(192, 70%, 51%);
+  --dark-blue: #265351;
+  --lime-green: #e68600;
+  --bright-cyan: #ecbc00;
   /* ### Neutral */
   --grayish-blue: hsl(233, 8%, 62%);
   --grayish-blue-mid: hsl(0, 0%, 80%);
