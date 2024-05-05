@@ -310,33 +310,99 @@ button:hover {
 }
 
 /* About Section */
+
 .about-section {
   display: grid;
-  grid-template-rows: auto auto;
-  gap: 5rem;
-  padding: 5rem;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  width: 100%;
+  place-items: center;
 }
 
 .about-intro {
-  padding: 1.5rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .about-intro h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.75rem;
 }
 
 .about-intro p {
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin: 1rem;
-  text-align: right;
-  padding-left: 5rem;
+  font-size: 1.35rem;
+  padding: 0;
 }
 
 .about-item-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.about-item {
+  padding: 1rem;
+  text-align: center;
+}
+
+.about-item h4 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.about-item p {
+  font-size: 1.15rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Desktop version */
+@media screen and (min-width: 768px) {
+  .about-section {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    padding: 4rem;
+  }
+
+  .about-intro {
+    padding: 1rem;
+  }
+
+  .about-intro h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem;
+  }
+
+  .about-intro p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem;
+    text-align: right;
+    padding-left: 5rem;
+  }
+
+  .about-item-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .about-item h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .about-item p {
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+  }
 }

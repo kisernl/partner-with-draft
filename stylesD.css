@@ -258,3 +258,47 @@ button:hover {
   justify-self: end;
   padding-right: 50px;
 }
+
+/* About Section */
+.about-section {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+.about-intro {
+  padding: 1rem;
+}
+
+.about-intro h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.about-intro p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1rem;
+  text-align: right;
+  padding-left: 5rem;
+}
+
+.about-item-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.about-item h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.about-item p {
+  font-size: 1.15rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
