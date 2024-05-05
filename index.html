@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
     </style>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
     </style>
     <!-- favicon -->
     <link
-    rel="tab icon"
-    href="./app/img/pw-icon-circle.png"
-    type="image/x-icon"
+      rel="tab icon"
+      href="./app/img/pw-icon-circle.png"
+      type="image/x-icon"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/395e51313e.js"
+      crossorigin="anonymous"
+    ></script>
     <title>PARTNERwith</title>
-</head>
-<body>
-  <!-- wrap page inside 1440 container -->
-  <div class="partnerwith-landing-page">
-  </div>
-  <header>
+  </head>
+  <body>
+    <!-- wrap page inside 1440 container -->
+    <div class="partnerwith-landing-page">
       <nav class="navbar">
         <div class="navbar__container">
           <a class="logo" href="#home">
-            <img src="./app/img/PARTNERwith.svg" alt="PARTNERwith logo image" style="width: auto; height: 3.5rem;" />
+            <img
+              src="./app/img/PARTNERwith-left-400.svg"
+              alt="PARTNERwith logo image"
+              style="width: auto; height: 3.5rem"
+            />
           </a>
 
           <div class="navbar__toggle" id="mobile-menu">
@@ -38,10 +44,14 @@
               <a href="#about" class="navbar__links" id="home-page">About</a>
             </li>
             <li class="navbar__item">
-              <a href="#pricing" class="navbar__links" id="about-page">Pricing</a>
+              <a href="#pricing" class="navbar__links" id="about-page"
+                >Pricing</a
+              >
             </li>
             <li class="navbar__item">
-              <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+              <a href="#contact" class="navbar__links" id="contact-page"
+                >Contact</a
+              >
             </li>
             <li class="navbar__item">
               <a href="#faq" class="navbar__links" id="faq-page">FAQ</a>
@@ -53,31 +63,81 @@
             </li>
           </ul>
         </div>
-    </nav>
-    <main class="hero-section" id="home">
-      <div class="hero__container">
-        <h1 class="hero__heading">Fatherhood</h1>
-        <div class="logo">
-            <img src="images/Hope_Logo_Final_Symbol-White (1).png" alt="Logo">
+      </nav>
+
+      <!-- Hero Section -->
+      <main class="hero-section" id="home">
+        <div class="hero-container">
+          <h1 class="hero-heading">
+            Partnerships are built through conversation
+          </h1>
+          <p class="hero-description">
+            Share <u>your vision</u> with a tool that helps you tell
+            <u>your story</u>.
+          </p>
         </div>
-        <p class="hero__description">Women's Hope Medical Clinic</p>
-      </div>
-      <div class="hero-img">
-        <img
-          src="./app/img/sample-phone-screenshot.png"
-          alt="foreground image with smartphone screens"
-          class="hero-img-top"
-        />
-      </div>
-      <div class="hero-intro container">
-        <h1>Partnerships are built through conversation</h1>
-        <p>
-          Share your vision with a tool that helps you tell your story.
-        </p>
-        <button class="btn-primary">Reach Out</button>
-      </div>
-    </main>
-  </header>
-  <script src="app.js"></script>
-</body>
+        <div class="hero-img">
+          <img
+            src="./app/img/pw-coffee-insta-green-OFFwhite-NEW.png"
+            alt="coffee shop"
+            style="max-width: 480px"
+          />
+        </div>
+      </main>
+
+      <!-- About Section  -->
+      <section class="about-section">
+        <!-- section-title and p -->
+        <div class="about-intro">
+          <h2>The Tool You'll Keep Reaching For</h2>
+          <p>
+            When it comes to sharing your vision and passion with others, we
+            know the value of every conversation. Your personal PARTNERwith site
+            is designed first and foremost for your conversation with every
+            potential partner you meet.
+          </p>
+        </div>
+
+        <!-- cards -->
+        <div class="about-item-container">
+          <div class="about-item">
+            <i class="fa-solid fa-mobile fa-3x"></i>
+            <h4>Mobile First</h4>
+            <p>
+              Every PARTNERwith site is built mobile first. Your personal site
+              is ready to help you tell your story at all times.
+            </p>
+          </div>
+          <div class="about-item">
+            <i class="fa-solid fa-qrcode fa-3x"></i>
+            <h4>Easy Share</h4>
+            <p>
+              We provide a QR code for your unique PARTNERwith site allowing you
+              to share your story with potential partners as they follow along
+              on their own device.
+            </p>
+          </div>
+          <div class="about-item">
+            <i class="fa-solid fa-tv fa-3x"></i>
+            <h4>One Tool</h4>
+            <p>
+              No more slide decks, print outs, sign-up lists, etc. Your
+              PARTNERwith site is the one tool to meet the needs of all of your
+              partner building opportunities.
+            </p>
+          </div>
+          <div class="about-item">
+            <i class="fa-solid fa-people-group fa-3x"></i>
+            <h4>Connect</h4>
+            <p>
+              Your PARTNERwith site is specifically designed to help you share
+              your story and simplify your process, so you can focus on building
+              your team of partners.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
